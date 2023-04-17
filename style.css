@@ -1,0 +1,64 @@
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    padding-top: 0.5em;
+    padding-left: 2em;
+}
+header > *{
+    margin: 0;
+}
+
+.execution_area{
+    position: fixed;
+    top: 100px;
+    right: 4em;
+    float: right;
+    background-color: #2f4f4f;
+    color: white;
+    width: 400px;
+    padding: 2em;
+}
+input{
+    width: 320px;
+    height: 30px;
+    margin: 5px;
+    font-size: large;
+}
+select{
+    width :150px;
+    height: 35px;
+    font-size: large;
+    padding-left: 0.2em;
+    margin-right: 5em;
+}
+button{
+    background: none;
+    border: 5px double red;
+    color: red;
+    width: 100px;
+    height: 40px;
+    margin: 0.5em;
+    font-size: medium;
+}
+button:hover{
+    background: red;
+    color: white;
+    font-weight: bold;
+}
+#result{
+  color: #00ff00;
+  font-size: large; 
+}
+.notes_area{
+    border: 2px solid #00ff00;
+    margin-top: 1em;
+    padding-left: 0.5em;
+}
+
+.explanation_area{
+    width: 800px;
+    padding-left: 4em;
+}
